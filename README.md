@@ -10,7 +10,7 @@
 
 
 Практическая работа 2. Работа с данными в DASK
-- [ПР2_Работа с данными в DASK]() Файл к заданию: Parking_Violations_Issued_-_Fiscal_Year_2015.csv [отсюда](https://disk.yandex.ru/d/fbPE3VNKYocd7g)
+- [ПР2_Работа с данными в DASK](ПР2_ОвсепянМилена.ipynb) Файл к заданию: Parking_Violations_Issued_-_Fiscal_Year_2015.csv [отсюда](https://disk.yandex.ru/d/fbPE3VNKYocd7g)
 
 
 
