@@ -10,10 +10,10 @@
 
 
 # **Практическая работа 2. Работа с данными в DASK**
-- [ПР2_Работа с данными в DASK](ПР2_ОвсепянМилена.ipynb) Файл к заданию: Parking_Violations_Issued_-_Fiscal_Year_2015.csv [отсюда](https://disk.yandex.ru/d/fbPE3VNKYocd7g)
+- [ПР2_Работа с данными в DASK](ПР2_ОвсепянМилена.ipynb) Файл к заданию: [Parking_Violations_Issued_-_Fiscal_Year_2015.csv](https://disk.yandex.ru/d/fbPE3VNKYocd7g)
 
 # **Практическая работа 3. Работа с API. Тестовые наборы данных Kaggle APIЗадание**
-- [ПР3 Работа с API](ПР3_ОвсепянМилена.ipynb)
+- [ПР3 Работа с API](ПР3_ОвсепянМилена.ipynb) Вариант 10: поиск по ключевому слову Home & Living. Датасет- [Mobile_Home_Parks.csv](https://www.kaggle.com/datasets/thedevastator/mobile-home-park-locations/data)
 
 # **Практическая работа 4. Проектирование сквозного конвейера ETL на Python и Airflow**
 - ПР4
