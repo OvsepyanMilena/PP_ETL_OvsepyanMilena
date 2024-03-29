@@ -23,4 +23,4 @@
 
 
 # **Практическая работа 5. Airflow DAG**
-- [ПР5_AirflowDAG]()
+- [ПР5_AirflowDAG](ОвсепянМВ_ПР5.pdf)
