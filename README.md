@@ -18,8 +18,9 @@
 - [Визуализация](https://datalens.yandex.ru/gla58t5p4yss4-peredvizhnye-doma-parki) в YandexDataLens
 
 # **Практическая работа 4. Проектирование сквозного конвейера ETL на Python и Airflow**
-- ПР4
-- [Архитектура ](https://viewer.diagrams.net/?tags=%7B%7D&highlight=0000ff&edit=_blank&layers=1&nav=1&title=%D0%9F%D0%A04_%D0%9E%D0%B2%D1%81%D0%B5%D0%BF%D1%8F%D0%BD.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1DSEoGZ5m3JuDICDzYbvQKNwgyjh06BUP%26export%3Ddownload)
+- [Задание 4.1. Бизнес кейс «Umbrella»](Овсепян_ПР4.1.pdf)
+- [Задание 4.2. Конвейер данных на основании Basic pipeline ETL.rar]()
+
 
 # **Практическая работа 5. Airflow DAG**
 - [ПР5_AirflowDAG]()
