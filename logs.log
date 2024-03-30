@@ -1,0 +1,30 @@
+[2024-03-16 10:39:52,561] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: download_rocket_launches.download_launches 2024-03-02T00:00:00+00:00 [queued]>
+[2024-03-16 10:39:52,673] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: download_rocket_launches.download_launches 2024-03-02T00:00:00+00:00 [queued]>
+[2024-03-16 10:39:52,673] {taskinstance.py:1017} INFO - 
+--------------------------------------------------------------------------------
+[2024-03-16 10:39:52,673] {taskinstance.py:1018} INFO - Starting attempt 1 of 1
+[2024-03-16 10:39:52,673] {taskinstance.py:1019} INFO - 
+--------------------------------------------------------------------------------
+[2024-03-16 10:39:52,763] {taskinstance.py:1038} INFO - Executing <Task(BashOperator): download_launches> on 2024-03-02T00:00:00+00:00
+[2024-03-16 10:39:52,774] {standard_task_runner.py:51} INFO - Started process 20891 to run task
+[2024-03-16 10:39:52,802] {standard_task_runner.py:75} INFO - Running: ['airflow', 'tasks', 'run', 'download_rocket_launches', 'download_launches', '2024-03-02T00:00:00+00:00', '--job-id', '5', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/download_rocket_launches.py', '--cfg-path', '/tmp/tmp1g7ptypq']
+[2024-03-16 10:39:52,803] {standard_task_runner.py:76} INFO - Job 5: Subtask download_launches
+[2024-03-16 10:39:53,102] {logging_mixin.py:103} INFO - Running <TaskInstance: download_rocket_launches.download_launches 2024-03-02T00:00:00+00:00 [running]> on host 2a9ac032b96c
+[2024-03-16 10:39:53,566] {taskinstance.py:1230} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=download_rocket_launches
+AIRFLOW_CTX_TASK_ID=download_launches
+AIRFLOW_CTX_EXECUTION_DATE=2024-03-02T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2024-03-02T00:00:00+00:00
+[2024-03-16 10:39:53,567] {bash.py:135} INFO - Tmp dir root location: 
+ /tmp
+[2024-03-16 10:39:53,568] {bash.py:158} INFO - Running command: curl -o /tmp/launches.json -L 'https://ll.thespacedevs.com/2.0.0/launch/upcoming'
+[2024-03-16 10:39:53,659] {bash.py:169} INFO - Output:
+[2024-03-16 10:39:54,009] {bash.py:173} INFO -   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+[2024-03-16 10:39:54,022] {bash.py:173} INFO -                                  Dload  Upload   Total   Spent    Left  Speed
+[2024-03-16 10:39:55,579] {bash.py:173} INFO -   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+[2024-03-16 10:39:56,346] {bash.py:173} INFO -  65 27139   65 17744    0     0   7641      0  0:00:03  0:00:02  0:00:01  7641100 27139  100 27139    0     0  11617      0  0:00:02  0:00:02 --:--:--  705k
+[2024-03-16 10:39:56,349] {bash.py:177} INFO - Command exited with return code 0
+[2024-03-16 10:39:56,836] {taskinstance.py:1135} INFO - Marking task as SUCCESS. dag_id=download_rocket_launches, task_id=download_launches, execution_date=20240302T000000, start_date=20240316T103952, end_date=20240316T103956
+[2024-03-16 10:39:57,070] {taskinstance.py:1195} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-03-16 10:39:57,083] {local_task_job.py:118} INFO - Task exited with return code 0
